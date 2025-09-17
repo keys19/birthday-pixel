@@ -35,3 +35,7 @@ def fade_to(c0, c1, dur, steps=60):
 
 ## Reflection
 While I’m satisfied with this first attempt at mapping familiar birthday moments to colors and timing i.e. the flame, the wish, the blowout, and the celebration, all with a single pixel, I’d like to push it further by experimenting with a wider palette and more carefully tuned timings to make the transitions feel even more natural. Looking ahead, I’d also love to sync the sequence with sound, so the light and audio work together. That would make the piece feel more complete and wholesome, like a true micro–birthday performance rather than just a visual sketch.
+
+### Attribution
+The code uses Adafruit’s NeoPixel CircuitPython API.
+Requires neopixel.mpy and adafruit_pixelbuf.mpy in the lib/ folder on CIRCUITPY.
